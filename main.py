@@ -306,12 +306,6 @@ def view_schedule(request: Request, yuki: Union[str] = Cookie(None)):
     html_content = response.text
     return html_content
 
-@app.get("/ex3about", response_class=PlainTextResponse)
-def view_ex3about(request: Request, yuki: Union[str] = Cookie(None)):
-    response = requests.get("https://raw.githubusercontent.com/beta9514/about/main/ex3_about.txt")
-    html_content = response.text
-    return html_content
-
 @app.get("/load_instance")
 def home():
     global url
