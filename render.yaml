@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: b95-ex-type_c
+    name: b95-ex-c
     env: python
     region: Oregon
     plan: free
