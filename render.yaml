@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yuki-calculator
+    name: b95-ex-yc
     env: python
     region: Oregon
     plan: free
